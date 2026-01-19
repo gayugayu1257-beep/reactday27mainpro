@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import { addBlog } from "../../features/Blog/BlogSlice";
+import { addBlog } from "../../features/blog/blogSlice";
+
 
 export default function BlogList() {
   const blogs = useSelector(state => state.blog);
